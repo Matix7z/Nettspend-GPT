@@ -1,0 +1,101 @@
+openapi: 3.0.0
+info:
+  title: Nettspend API
+  description: An API that provides information about Nettspend, the rapper.
+  version: "1.0.0"
+servers:
+  - url: https://api.nettspend.com/v1
+    description: Production server
+paths:
+  /nettspend:
+    get:
+      operationId: getNettspendInfo
+      summary: Get information about Nettspend
+      description: Returns detailed information about Nettspend, including his real name, background, music career, and influence.
+      responses:
+        '200':
+          description: Information about Nettspend
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NettspendResponse'
+components:
+  schemas:
+    NettspendResponse:
+      type: object
+      properties:
+        realName:
+          type: string
+          description: Nettspend's real name.
+          example: Gunner Shepardson
+        birthDate:
+          type: string
+          format: date
+          description: Nettspend's date of birth.
+          example: 2007-03-18
+        origin:
+          type: string
+          description: Nettspend's place of origin.
+          example: Richmond, Virginia
+        influences:
+          type: array
+          items:
+            type: string
+          description: Artists who influenced Nettspend.
+          example: ["Michael Jackson", "Katy Perry", "Justin Bieber"]
+        careerHighlights:
+          type: object
+          properties:
+            viralMoment:
+              type: string
+              description: Nettspend's viral moment.
+              example: Snippet of "Drankdrankdrank" went viral on Twitter in late 2023.
+            debutMixtape:
+              type: string
+              description: Nettspend's debut mixtape.
+              example: Bad Ass Fcking Kid*
+            collectives:
+              type: array
+              items:
+                type: string
+              description: Rap collectives Nettspend is part of.
+              example: ["Novagang", "1c34"]
+            collaborations:
+              type: array
+              items:
+                type: string
+              description: Artists Nettspend has collaborated with.
+              example: ["Xaviersobased", "OsamaSon"]
+            festivals:
+              type: array
+              items:
+                type: string
+              description: Festivals where Nettspend has performed.
+              example: ["Rolling Loud"]
+        musicStyle:
+          type: object
+          properties:
+            genres:
+              type: array
+              items:
+                type: string
+              description: Genres influencing Nettspend's music.
+              example: ["Trap", "Jerk"]
+            characteristics:
+              type: string
+              description: Description of Nettspend's sound.
+              example: Distorted 808s, laid-back piano riffs, and shimmering synthesizers.
+            mediaDescription:
+              type: string
+              description: Media description of Nettspend's music style.
+              example: Post-post-rage
+        notableTracks:
+          type: array
+          items:
+            type: string
+          description: Some of Nettspend's notable tracks.
+          example: ["Shine N Peace", "We Not Like You"]
+        impact:
+          type: string
+          description: Nettspend's significance in the music scene.
+          example: Rising star in the hip-hop genre despite his young age.
