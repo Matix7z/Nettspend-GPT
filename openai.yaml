@@ -1,8 +1,8 @@
 openapi: 3.1.0
 info:
   title: Nettspend API
-  description: An API that provides information about Nettspend, the rapper.
-  version: 1.0.0
+  description: An API providing detailed information about the rapper Nettspend.
+  version: 2.1.0
 servers:
   - url: https://matix7z.github.io/Nettspend-GPT
     description: Production server
@@ -10,11 +10,11 @@ paths:
   /openai.yaml:
     get:
       operationId: getNettspendInfo
-      summary: Get information about Nettspend
-      description: Returns detailed information about Nettspend, including his real name, background, music career, and influence.
+      summary: Retrieve information about Nettspend
+      description: Returns comprehensive details about Nettspend, including his real name, background, music career, influences, and more.
       responses:
         "200":
-          description: Information about Nettspend
+          description: Detailed information about Nettspend
           content:
             application/json:
               schema:
@@ -43,6 +43,9 @@ components:
             type: string
           description: Artists who influenced Nettspend.
           example:
+            - Chief Keef
+            - Lil Uzi Vert
+            - Young Thug
             - Michael Jackson
             - Katy Perry
             - Justin Bieber
@@ -52,16 +55,16 @@ components:
             viralMoment:
               type: string
               description: Nettspend's viral moment.
-              example: Snippet of "Drankdrankdrank" went viral on Twitter in late 2023.
+              example: A snippet of "Drankdrankdrank" went viral on Twitter in late 2023.
             debutMixtape:
               type: string
               description: Nettspend's debut mixtape.
-              example: Bad Ass Fcking Kid*
+              example: Bad Ass F*cking Kid
             collectives:
               type: array
               items:
                 type: string
-              description: Rap collectives Nettspend is part of.
+              description: Rap collectives Nettspend is associated with.
               example:
                 - Novagang
                 - 1c34
@@ -94,7 +97,7 @@ components:
             characteristics:
               type: string
               description: Description of Nettspend's sound.
-              example: Distorted 808s, laid-back piano riffs, and shimmering synthesizers.
+              example: Distorted 808s, loose piano riffs, and shimmering synthesizers.
             mediaDescription:
               type: string
               description: Media description of Nettspend's music style.
@@ -107,7 +110,73 @@ components:
           example:
             - Shine N Peace
             - We Not Like You
+            - F*ck Swag
         impact:
           type: string
           description: Nettspend's significance in the music scene.
           example: Rising star in the hip-hop genre despite his young age.
+        latestAchievements:
+          type: object
+          properties:
+            awards:
+              type: array
+              items:
+                type: string
+              description: Awards and recognitions Nettspend has received.
+              example:
+                - Best New Artist 2024 (Rolling Loud Awards)
+                - Viral Track of the Year 2023
+            streamingStats:
+              type: object
+              properties:
+                monthlyListeners:
+                  type: integer
+                  description: Monthly listeners on Spotify.
+                  example: 500000
+                totalStreams:
+                  type: integer
+                  description: Total streams across all platforms.
+                  example: 20000000
+        funFacts:
+          type: array
+          items:
+            type: string
+          description: Fun facts about Nettspend.
+          example:
+            - Started making music at the age of 15.
+            - Loves anime and often references it in his music.
+            - Known for his vibrant stage presence and energy.
+        communityPerception:
+          type: object
+          properties:
+            subredditFollowers:
+              type: integer
+              description: Number of followers on the Nettspend subreddit.
+              example: 10000
+            fanDiscussions:
+              type: array
+              items:
+                type: string
+              description: Popular topics discussed by fans.
+              example:
+                - Comparisons to Rei Ayanami from Neon Genesis Evangelion
+                - Requests for instrumental sheets of his tracks
+        controversies:
+          type: array
+          items:
+            type: object
+          description: Controversies involving Nettspend.
+          example:
+            - incident:
+                type: string
+                description: Description of the controversy.
+                example: Alleged Instagram DMs with Rhonda Moore, leading to the "I got racks now Rhonda" meme.
+              date:
+                type: string
+                format: date
+                description: Date of the incident.
+                example: 2024-10-24
+              resolution:
+                type: string
+                description: Outcome or current status.
+                example: Nettspend addressed the situation in interviews, denying the authenticity of the messages.
