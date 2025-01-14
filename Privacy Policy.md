@@ -1,73 +1,81 @@
-# Privacy Policy
+# Privacy Policy for NettspendGPT API
 
-## Introduction
-We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines the types of information we collect, how we use it, and your rights regarding your data. This policy applies to all services and applications offered by **Nettspend**.
-
----
-
-## Data Controller
-The data controller responsible for processing your data is:
-
-**Nettspend**   
-Email: [nettspendgpt@gmail.com]  
+**Effective Date**: January 14, 2025  
+**Last Updated**: January 14, 2025  
 
 ---
 
-## Information We Collect
-When you interact with **Nettspend**, we may collect the following types of information:
-
-- **Personal Information**: Name, email address, and other contact details you provide.
-- **Technical Information**: IP address, browser type, operating system.
-- **Usage Data**: Interactions with the application, timestamps, and session details.
+## 1. Introduction  
+Welcome to the **NettspendGPT API**. This Privacy Policy outlines how we collect, use, and protect the data provided or processed through our API. By using the API, you agree to the terms of this Privacy Policy.
 
 ---
 
-## How We Use Your Information
-We use your information for the following purposes:
+## 2. Information We Collect  
 
-- To operate and maintain the **Nettspend** application.
-- To improve the quality and functionality of our services.
-- To comply with legal obligations.
-- To send updates or notifications, if you have opted in.
+### 2.1 Data Collected from API Users  
+We may collect the following data when you interact with the NettspendGPT API:
+- **API Usage Data**: Includes details such as API requests, endpoints accessed, timestamps, and response metadata.
+- **Authentication Data**: Such as API keys or tokens used to authenticate and validate access to the API.
+- **Contact Information**: (Optional) If you register or contact us for support, we may collect your email address or other contact details.
 
----
-
-## Sharing Your Data
-We will only share your data under the following circumstances:
-
-- **With Your Consent**: If you explicitly agree to share your data.
-- **With Service Providers**: To third-party companies that support our operations (e.g., hosting, analytics).
-- **Legal Requirements**: If required by law, regulation, or legal process.
+### 2.2 User Input Data  
+When using NettspendGPT, you may send text or queries for processing:
+- We do not permanently store user input or API responses unless explicitly required for debugging or improving the service.
+- Temporary data may be logged for a short period to ensure API stability and improve functionality.
 
 ---
 
-## Data Storage and Security
-We store your information only for as long as it is necessary to fulfill the purposes outlined in this policy or as required by law. We implement technical and organizational measures to ensure your data is protected from unauthorized access, loss, or misuse.
+## 3. How We Use the Information  
+
+- **Service Operation**: To process and respond to requests made via the API.
+- **API Maintenance**: To monitor usage, improve performance, and troubleshoot errors.
+- **Authentication and Security**: To ensure secure and authorized API access.
+- **Support**: To address inquiries or issues raised by API users.
 
 ---
 
-## Your Rights
-You have the following rights regarding your data:
+## 4. Data Protection  
 
-- **Access**: Request access to the personal data we hold about you.
-- **Correction**: Request corrections to inaccurate or incomplete data.
-- **Deletion**: Request the deletion of your data, where applicable.
-- **Objection**: Object to the processing of your data for certain purposes.
-- **Withdrawal of Consent**: Revoke your consent for data processing at any time.
-- **Data Portability**: Request a copy of your data in a structured, machine-readable format.
-
-To exercise these rights, please contact us at: [nettspendgpt@gmail.com]
+We prioritize your data's security by implementing:
+- **Encryption**: All API communication is encrypted via HTTPS to prevent unauthorized access.
+- **Access Control**: Secure API keys or tokens are required to authenticate users.
+- **Minimal Data Retention**: Usage logs are retained only as long as necessary for debugging or analytics.
 
 ---
 
-## Updates to This Policy
-We may update this Privacy Policy from time to time. Any changes will be posted on our website, and we encourage you to review the policy periodically to stay informed about how we are protecting your data.
+## 5. Data Sharing  
+
+We do not share your data with third parties unless:
+- It is required by law or legal processes.
+- It is necessary to protect the integrity of the API or prevent misuse.
 
 ---
 
-## Contact Us
-If you have any questions about this Privacy Policy or how your data is handled, please contact us at:
+## 6. User Responsibilities  
 
-**Nettspend**  
-Email: [nettspendgpt@gmail.com]  
+As a user of the NettspendGPT API, you are responsible for:
+- **Compliance**: Ensuring that your use of the API complies with all applicable laws, especially concerning user privacy and data protection.
+- **End-User Privacy**: If you process personal data via the API, you must obtain the necessary consents from your end users.
 
+---
+
+## 7. Data Retention  
+
+- Temporary data: User inputs and outputs are not permanently stored and are deleted shortly after processing.
+- Logs: API logs may be stored for a limited time to monitor performance and detect abuse.
+
+---
+
+## 8. Changes to This Privacy Policy  
+
+We may update this Privacy Policy periodically. Updates will be posted on this page with the "Last Updated" date.
+
+---
+
+## 9. Contact Us  
+
+If you have any questions or concerns about this Privacy Policy, please contact us:  
+**Email**: nettspendgpt@gmail..com  
+  
+
+---
