@@ -7,7 +7,7 @@ servers:
   - url: https://matix7z.github.io/Nettspend-GPT
     description: Production server
 paths:
-  /nettspend:
+  /openai.yaml:
     get:
       operationId: getNettspendInfo
       summary: Get information about Nettspend
