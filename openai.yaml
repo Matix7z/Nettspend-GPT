@@ -4,7 +4,7 @@ info:
   description: An API that provides information about Nettspend, the rapper.
   version: 1.0.0
 servers:
-  - url: https://matix7z.github.io/Nettspend-GPT/openai.yaml
+  - url: https://matix7z.github.io/Nettspend-GPT
     description: Production server
 paths:
   /nettspend:
