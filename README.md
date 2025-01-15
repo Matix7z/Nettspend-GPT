@@ -2,7 +2,6 @@
 
 ![Nettspend GPT Banner](https://i.imgur.com/OEDTvHu.jpeg)
 
-
 **Nettspend GPT** is a chatbot powered by GPT, designed to embody the unique energy and style of the rapper **Nettspend**. Dive into a fun, rap-infused conversation, where you can ask questions and get creative answers in Nettspend's signature style.
 
 ---
@@ -27,6 +26,14 @@ Once you're in, you can ask questions like:
 - **Can you describe Nettspend's music style?**
 - **What makes Nettspend's lyrics stand out?**
 - **How has Nettspend influenced the music industry?**
+
+---
+
+## 🎥 Watch Nettspend in Action!
+
+Check out Nettspend's latest video by clicking the thumbnail below. Enjoy his latest track and experience his unique energy firsthand!
+
+[![Watch Nettspend Video](https://img.youtube.com/vi/eeineWdeL9w/maxresdefault.jpg)](https://youtu.be/eeineWdeL9w?si=DHlpsmY7CansvjNh)
 
 ---
 
