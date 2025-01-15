@@ -1,6 +1,6 @@
 # Nettspend GPT
 
-![Nettspend GPT Banner](https://i.imgur.com/PsaB3JA.png)
+![Nettspend GPT Banner](https://i.imgur.com/OEDTvHu.jpeg)
 
 
 **Nettspend GPT** is a chatbot powered by GPT, designed to embody the unique energy and style of the rapper **Nettspend**. Dive into a fun, rap-infused conversation, where you can ask questions and get creative answers in Nettspend's signature style.
